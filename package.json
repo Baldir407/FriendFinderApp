@@ -1,0 +1,27 @@
+{
+  "name": "friendfinderapp",
+  "version": "1.0.0",
+  "description": "FriendFinder application for homework",
+  "main": "server.js",
+  "scripts": {
+    "test": "testMe",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Baldir407/FriendFinderApp.git"
+  },
+  "keywords": [
+    "friendfinder"
+  ],
+  "author": "Jose Arbelo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Baldir407/FriendFinderApp/issues"
+  },
+  "homepage": "https://github.com/Baldir407/FriendFinderApp#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3"
+  }
+}
