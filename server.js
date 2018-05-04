@@ -20,6 +20,9 @@ var PORT = process.env.PORT || 3000;
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
+app.use(express.static(path.join(__dirname, './app/public')));
+
+
 // =====================================================================
 // Router
 // These point the server to the routes apiRoutes.js and htmlRoutes.js
@@ -27,6 +30,9 @@ app.use(bodyParser.json());
 
 require("./app/routing/apiRoutes")(app);
 require("./app/routing/htmlRoutes")(app);
+
+
+
 
 
 // Listener - Start the server
