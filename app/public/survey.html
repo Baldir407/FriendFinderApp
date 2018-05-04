@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Survey Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+   
+</head>
+<body>
+    
+    <div class="container">
+        <h2>Survey Questions</h2>
+        <hr>
+
+        <h3><b>About You</b></h3>
+        <h4 class="mainInput">Name (Required) <span class="error text-danger"></span> </h4>
+        <input type="text" name="" id="name" class="form-control">
+
+        <h4 class="mainInput">Link to Photo Image (Required) <span class="error text-danger"></span> </h4>
+        <input type="text" name="" id="image" class="form-control">
+
+        <hr>
+
+        <h3 class="question"><b>Question 1</b></h3>
+        <h4>Getting a job in the tech field is a solid plan!</h4>
+        <select class="selectpicker" id="q1" title="Choose one of the following...">
+            <option value="1">1 (strongly disagree)</option>
+            <option value="2">2 (somewhat disagree)</option>
+            <option value="3">3 (neutral)</option>
+            <option value="4">4 (somewhat agree)</option>
+            <option value="5">5 (strongly agree)</option>
+        </select>
+
+        <h3 class="question"><b>Question 2</b></h3>
+        <h4>Florida wildlife is perfectly normal and harmless!</h4>
+        <select  class="selectpicker" id="q2" title="Choose one of the following...">
+            <option value="1">1 (strongly disagree)</option>
+            <option value="2">2 (somewhat disagree)</option>
+            <option value="3">3 (neutral)</option>
+            <option value="4">4 (somewhat agree)</option>
+            <option value="5">5 (strongly agree)</option>
+        </select>
+
+
+        <h3 class="question"><b>Question 3</b></h3>
+        <h4>Mass Effect 3's ending was great!</h4>
+        <select class="selectpicker" id="q3" title="Choose one of the following...">
+            <option value="1">1 (strongly disagree)</option>
+            <option value="2">2 (somewhat disagree)</option>
+            <option value="3">3 (neutral)</option>
+            <option value="4">4 (somewhat agree)</option>
+            <option value="5">5 (strongly agree)</option>
+        </select>
+
+
+        <h3 class="question"><b>Question 4</b></h3>
+        <h4>Ska is a great type of music!</h4>
+        <select class="selectpicker" id="q4" title="Choose one of the following...">
+            <option value="1">1 (strongly disagree)</option>
+            <option value="2">2 (somewhat disagree)</option>
+            <option value="3">3 (neutral)</option>
+            <option value="4">4 (somewhat agree)</option>
+            <option value="5">5 (strongly agree)</option>
+        </select>
+
+
+        <h3 class="question"><b>Question 5</b></h3>
+        <h4>Death Grips is not an overrated group!</h4>
+        <select class="selectpicker" id="q5" title="Choose one of the following...">
+            <option value="1">1 (strongly disagree)</option>
+            <option value="2">2 (somewhat disagree)</option>
+            <option value="3">3 (neutral)</option>
+            <option value="4">4 (somewhat agree)</option>
+            <option value="5">5 (strongly agree)</option>
+        </select>
+
+
+        <h3 class="question"><b>Question 6</b></h3>
+        <h4>Golfing is a totally valid sport to enjoy on your leisure time!</h4>
+        <select class="selectpicker" id="q6" title="Choose one of the following...">
+            <option value="1">1 (strongly disagree)</option>
+            <option value="2">2 (somewhat disagree)</option>
+            <option value="3">3 (neutral)</option>
+            <option value="4">4 (somewhat agree)</option>
+            <option value="5">5 (strongly agree)</option>
+        </select>
+
+
+        <h3 class="question"><b>Question 7</b></h3>
+        <h4>Dogs are a fantastic pet to have!</h4>
+        <select class="selectpicker" id="q7" title="Choose one of the following...">
+            <option value="1">1 (strongly disagree)</option>
+            <option value="2">2 (somewhat disagree)</option>
+            <option value="3">3 (neutral)</option>
+            <option value="4">4 (somewhat agree)</option>
+            <option value="5">5 (strongly agree)</option>
+        </select>
+
+        <h3 class="question"><b>Question 8</b></h3>
+        <h4>You pronounce the word "Gif" like the peanut butter "Jif".</h4>
+        <select class="selectpicker" id="q8" title="Choose one of the following...">
+            <option value="1">1 (strongly disagree)</option>
+            <option value="2">2 (somewhat disagree)</option>
+            <option value="3">3 (neutral)</option>
+            <option value="4">4 (somewhat agree)</option>
+            <option value="5">5 (strongly agree)</option>
+        </select>
+
+        <h3 class="question"><b>Question 9</b></h3>
+        <h4>Japanese cinema is of the highest quality!</h4>
+        <select class="selectpicker" id="q9" title="Choose one of the following...">
+            <option value="1">1 (strongly disagree)</option>
+            <option value="2">2 (somewhat disagree)</option>
+            <option value="3">3 (neutral)</option>
+            <option value="4">4 (somewhat agree)</option>
+            <option value="5">5 (strongly agree)</option>
+        </select>
+
+        <h3 class="question"><b>Question 10</b></h3>
+        <h4>The youtube channel "lofi hip hop radio - beats to relax/study to" is great for its intended purpose!</h4>
+        <select class="selectpicker" id="q10" title="Choose one of the following...">
+            <option value="1">1 (strongly disagree)</option>
+            <option value="2">2 (somewhat disagree)</option>
+            <option value="3">3 (neutral)</option>
+            <option value="4">4 (somewhat agree)</option>
+            <option value="5">5 (strongly agree)</option>
+        </select>
+
+        <br>
+        <br>
+
+        <button type="submit" class="btn btn-primary btn-lg btn-block" id="submit"> Submit</button>
+
+        <hr>
+        <footer class="footer">
+            <div class="container">
+                <p><a href="/api" target="_blank">API Friends List</a> | <a href="https://github.com/Baldir407/FriendFinderApp" target="_blank">GitHub Repo</a></p>
+            </div>
+        </footer>
+
+    </div><!-- container end -->
+
+    <!-- modal for displaying results -->
+    <div id="myModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content text-center">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Here is your best match:</h4>
+                </div>
+                <div class="modal-body">
+                    <img id="modalImage" class="well" src="" alt="" height="300">
+                    <h3 id="modalName" class="text-danger"></h3>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            //click handler for submit button
+            $( '#submit' ).on( 'click', function ( event ) {
+                event.preventDefault();
+                let newFriend = {};
+                //flag variable for validation
+                let inputComplete = false;
+                //capturing values from form inputs
+                let name = $( '#name' ).val().trim();
+                let photo = $( '#image' ).val().trim();
+                //triggering warning message if inputs are incomplete
+                if ( name === '' || photo === '') {
+                    inputComplete = false;
+                    $( '.error' ).empty();
+                    $( '.error' ).text( '  You must fill out this field!' )
+                } else {
+                    inputComplete = true;
+                }
+                if ( inputComplete ) {
+                   
+                    $( '.error' ).empty();
+                    let newFriend = {
+                        name,
+                        photo,
+                        scores:[]
+                    }
+                    
+                    for ( let i = 1; i <= 10; i++ ) {
+                        let score = $( '#q'+ i ).val() || "3"
+                        newFriend.scores.push( score );
+                        $( '#q'+ i ).val('').selectpicker('refresh');
+                    }
+                    //clearing inputs
+                    $( '#name' ).val( '' );
+                    $( '#image' ).val( '' );
+                    //posting new user to the api
+                    $.post("/api/friends", newFriend)
+                        .done(function(data) {   
+                        console.log('data:',data)
+                    });
+                    //getting best match data from backend, and passing the data to the modal
+                    $.get("/bestFriend", function (data2) {
+                        $('#myModal').modal('toggle');
+                        $('#modalName').text(data2.friend.name);
+                        $('#modalImage').attr("src", data2.friend.photo);
+                    });	
+                }
+            });
+        });
+    </script>
+</body>
+</html>
